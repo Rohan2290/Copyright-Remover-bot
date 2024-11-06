@@ -111,7 +111,7 @@ async def bun(event):
        if not admin and not creator:
            await event.reply("__I Don't Have Sufficient Rights To Do This.__")
            return
-       hmm =  await event.reply("__STARTED FUCKING...__")
+       hmm =  await event.reply("__STARTED saving group 😵‍💫😵‍💫...__")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
