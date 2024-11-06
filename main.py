@@ -69,7 +69,7 @@ async def start(event):
 
 @main.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("SUPPORT", "https://t.me/XavierSupport"), Button.url("REPO", f'{repo}')]
+    buttns = [Button.url("OWNER", "https://t.me/pablo_730"), Button.url("DEVELOPER", f'{DEVELOPER}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
