@@ -19,10 +19,10 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = getenv("OWNER_ID", None)
+API_ID = int(getenv("API_ID", "25206101"))
+API_HASH = getenv("API_HASH", "2135724a8fdecb737f31d22ec8e6894b")
+BOT_TOKEN = getenv("BOT_TOKEN","7798579092:AAHTXPPG2kJrVRkuhmnPHmaiepnDePcKW0U")
+OWNER_ID = getenv("OWNER_ID","6062173301")
 SEXY  = [int(g), int(gg), int(OWNER_ID)]
 #TelegramClient..
 main = TelegramClient(
@@ -31,11 +31,11 @@ main = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "AakashxDx"
+Owner = "pablo_730"
 repo = "https://github.com/AakashxDx/BanallBot"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("Support", "https://t.me/XavierSupport"), Button.url("Repo", f'{repo}')]
+    buttns = [Button.url("Support", "https://t.me/+U0Sqf0VshyE5Y2I1"), Button.url("Repo", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
