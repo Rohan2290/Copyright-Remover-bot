@@ -10,10 +10,8 @@ __I am Alive Already 🥴!
 And Ready To save Groups
 Add Me There And I will save Group ☺️!__
 
-**My lib's Info!**
-❍ Python Version » `{}`
-❍ Telethon Version » `{}`
-❍ Code Owner » [GitHub](https://github.com/{})
+
+
 
 Type `/help` For Commands!
 """
