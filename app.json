@@ -1,8 +1,8 @@
 {
-  "name": "BanallBot",
+  "name": "copyright remover",
   "description": "Telegram's bilek migic.",
   "keywords": ["python", "telegram"],
-  "logo": "https://te.legra.ph/file/619ac09e97217459cac3d.jpg",
+  "logo": "https://graph.org/file/4308dcc94aacbdc3ed0c9-c04a9611c927588ddc.jpg",
   "repository": "https://github.com/aakashxdx/BanallBot",
   "stack": "container",
   "addons": [
