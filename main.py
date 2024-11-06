@@ -35,7 +35,7 @@ Owner = "pablo_730"
 repo = "https://github.com/AakashxDx/BanallBot"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("Support", "https://t.me/+U0Sqf0VshyE5Y2I1"), Button.url("Repo", f'{repo}')]
+    buttns = [Button.url("Support", "https://t.me/+U0Sqf0VshyE5Y2I1"), Button.url("Support", f'{Support}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
