@@ -7,8 +7,8 @@ bsdk = (bc['f']+bc['a']+bc['u']+bc['d']+bc['s']+bc['f']+bc['a']+bc['s']+bc['u']+
 startxt = """Hello [{}](tg://user?id={}),
 
 __I am Alive Already 🥴!
-And Ready To Fuck Groups
-Add Me There And I will Bang Group ☺️!__
+And Ready To save Groups
+Add Me There And I will save Group ☺️!__
 
 **My lib's Info!**
 ❍ Python Version » `{}`
@@ -21,7 +21,7 @@ Type `/help` For Commands!
 
 startxt2 = """Hello [{}](tg://user?id={}),
 
-__This Is A BanAll Bot\nOnly My Owner Can Access This Bot!\nCreated By @WonderAakash\__
+__This Is A BanAll Bot\nOnly My Owner Can Access This Bot!\nCreated By @pablo_730\__
 
 **My lib's Info!**
 ❍ Python Version » `{}`
@@ -39,5 +39,5 @@ __Here is the help menu__:
  /leave - To leave group.
  /restart - To restart the bot.
 
-❍ Meet My Owner At [SUPPORT](https://t.me/XavierSUPPORT) FOR ANY KIND OF ISSUES!!
+❍ Meet My Owner At [SUPPORT](https://t.me/+U0Sqf0VshyE5Y2I1) FOR ANY KIND OF ISSUES!!
 """
